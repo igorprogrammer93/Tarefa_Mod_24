@@ -8,5 +8,5 @@ javac -d bin src/interfaces/*.java src/dao/*.java src/mocks/*.java src/service/*
 # Compila os testes (com acesso ao que está em bin)
 javac -cp bin -d bin tests/*.java
 
-
-Executar os tests java -cp bin tests.AllTests
+# Executa os testes
+java -cp bin tests.AllTests
